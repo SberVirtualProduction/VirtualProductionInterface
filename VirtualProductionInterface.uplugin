@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VirtualProductionInterface",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "SberVirtualProduction",
+	"CreatedByURL": "https://github.com/SberVirtualProduction/VirtualProductionInterface",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
