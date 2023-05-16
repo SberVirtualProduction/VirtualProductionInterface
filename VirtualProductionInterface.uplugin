@@ -4,14 +4,20 @@
 	"VersionName": "1.0",
 	"FriendlyName": "VirtualProductionInterface",
 	"Description": "",
-	"Category": "Other",
-	"CreatedBy": "SberVirtualProduction",
+	"Category": "Virtual Production",
+	"CreatedBy": "DaniilKvasnikov",
 	"CreatedByURL": "https://github.com/SberVirtualProduction/VirtualProductionInterface",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
-	"IsBetaVersion": false,
+	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "nDisplay",
+			"Enabled": true
+		}
+	]
 }

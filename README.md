@@ -9,11 +9,23 @@
 Ultra Dynamic Sky
 
 ## В Post process используем:
-* Bloom.Intensity = 0
-* Vignette.Intensity = 0
-* Blue correction = 0
-* Expand Gamut = 0
-* Tone Curve Amount = 0
+Чтобы подготовить нашу сцену к действительно линейному рабочему цветовому пространству, сделайте следующее:
+
+Создайте том постобработки (PPV) и установите для него значение Infinite Extend (Unbound).
+Нормализуйте экспозицию сцены, установив следующие параметры в разделе «Exposure» PPV.
+* Metering Mode установлен на «Auto Exposure Histogram»
+* Exposure Compensation установлен на 1,0
+* Min EV100 установлен на 1,0
+* Max EV100 также установлен на 1,0
+
+Отключите следующие функции цветокоррекции в разделе Color Grading -> Misc, установив для них значение 0,0:
+* Blue Correction
+* Expand Gamut
+* Tone Curve Amount
+Отключите некоторые эффекты объектива, влияющие на цвет, установив для них значение 0,0:
+* Vignette Intensity
+* Bloom -> Intensity
+* Lens Flares
 
 ## Render target
 
