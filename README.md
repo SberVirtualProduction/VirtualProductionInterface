@@ -23,6 +23,7 @@ Ultra Dynamic Sky
 * Expand Gamut
 * Tone Curve Amount
 
+
 Отключите некоторые эффекты объектива, влияющие на цвет, установив для них значение 0,0:
 
 * Vignette Intensity
