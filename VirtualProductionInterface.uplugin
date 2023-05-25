@@ -18,6 +18,10 @@
 		{
 			"Name": "nDisplay",
 			"Enabled": true
+		},
+		{
+			"Name": "OpenColorIO",
+			"Enabled": true
 		}
 	]
 }
