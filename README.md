@@ -32,9 +32,17 @@ Ultra Dynamic Sky
 
 ## Render target
 
-Плагин содержит render target (./Content/Material/RT_InputImage.uasset), который можно использовать внутри контента в случаях, когда содержимое должно меняться в процессе мероприятия.
+Плагин содержит render target (./Content/Material/RT_InputImage.uasset), который можно использовать для отображения статических слайдов презентации в процессе мероприятия.
 
 ![RT_InputImage.uasset](/docs/RenderTarget.png)
+
+## NDI
+
+Возможно использовать передачу изображения по сети, для это нужно установить NDI(все 3), доступно по [ссылке](https://drive.google.com/drive/folders/1LPjtdLZqGwoN8tVWBuq9wtrwLebodtgI?usp=share_link).
+
+Затем скопировать папку c плагином нужной версии (для 4.27 по умолчанию C:\Program Files\NDI\NDI SDK for Unreal Engine\PluginBuilds\UE_4.27\NDIIO) в папку с плагинами внутри проекта (папка Plugins в основной папке с проектом). 
+
+После этого можно использовать файл Content\Material\MT_InputVideo.uasset внутри материалов для вывода полученного по сети видео.
 
 ## Event
 
