@@ -31,11 +31,19 @@ Ultra Dynamic Sky
 - Blue Correction
 - Expand Gamut
 - Tone Curve Amount
+- Screen Space Reflections
 
 Отключите некоторые эффекты объектива, влияющие на цвет, установив для них значение 0,0:
 - Vignette Intensity
 - Bloom -> Intensity
 - Lens Flares
+- Ambient Occlusion -> Intensity
+
+Exposure Compenstaion
+- Зафиксируйте и не анимируйте
+- Используйте Metering Mode = Manual
+- Значение Apply Physical Camera Exposure = false
+
 
 
 # Render target
