@@ -74,6 +74,15 @@ Exposure Compenstaion
 
 ![UseDelagate](/docs/UseEvent.png)
 
+
+# CheckList
+
+1. Windows version
+2. Unreal version
+3. Nvidia driver version
+4. Night light in Windows system -> off
+5. 
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
